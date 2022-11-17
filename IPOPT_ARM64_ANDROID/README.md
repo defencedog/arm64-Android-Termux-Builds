@@ -47,4 +47,4 @@ metis_aarch64-linux-android/
 
 5 directories, 8 files
 ```
-Each `.7z` included small information of what needs to be further done once 
+Each `.7z` include small information of what needs to be further done once extracting respective archive
