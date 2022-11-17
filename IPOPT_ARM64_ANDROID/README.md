@@ -15,21 +15,21 @@ This folder contains all necessary stuff (libraries, binaries, header files) to 
 - [ ] Bonmin
 - [ ] Couenne
 - [ ] Scip
-- [ ] Zimpl
 - [ ] Papilo
 - [ ] Soplex
 
 Following additional libraries for capability enhancement
 
-- Metis
-- Mumps
-- HSL
-- ASL
+- [x] Metis
+- [x] Mumps
+- [x] HSL
+- [x] ASL
+- [ ] Zimpl
 
 ### Usage
 Following packages are available in `termux` default repo or [TUR](https://github.com/termux-user-repository/tur) repowhich can be added easily 
 ```
-pkg i zlib gcc-11 clang libcoinor-utils coinor-clp eigen glpk openblas gsl boost boost-headers p7zip mpich
+pkg i zlib gcc-11 clang libcoinor-utils coinor-clp eigen glpk openblas gsl boost boost-headers p7zip mpich libtbb libgmp libgomp-11
 pkg i gcc-default-11 (a small size symlinking tool. Will be intermittently installed & uninstalled)
 ```
 <br>All builds are to be placed in `$PREFIX/local`<br>
