@@ -9,3 +9,27 @@ Following additional libraries for capability enhancement
 - Mumps
 - HSL
 - ASL
+
+### Usage
+Use `tree` command to know the directory structure once unzipping archives using `7z x <file>.7z`.
+For instance
+```
+~ $ tree metis_aarch64-linux-android/
+metis_aarch64-linux-android/
+├── README.txt
+├── bin
+│   ├── gpmetis
+│   ├── m2gmetis
+│   ├── mpmetis
+│   └── ndmetis
+├── include
+│   ├── coin
+│   │   └── ThirdParty
+│   ├── metis.h
+│   └── metis.h.gch
+└── lib
+    └── libmetis.so
+
+5 directories, 8 files
+```
+Each `.7z` included small information of what needs to be further done once 
