@@ -2,3 +2,9 @@ This folder contains all necessary stuff (libraries, binaries, header files) to 
 - IPOPT
 - CBC
 - CLP
+- more will be added (Soplex, Papilo, Putsc...)
+Following additional libraries for capability enhancement
+- Metis
+- Mumps
+- HSL
+- ASL
