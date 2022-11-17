@@ -12,11 +12,13 @@ This folder contains all necessary stuff (libraries, binaries, header files) to 
 - [x] IPOPT
 - [x] CBC
 - [x] CLP
-- [x] CGL
+- [ ] Bonmin
+- [ ] Couenne
 - [ ] Scip
 - [ ] Zimpl
 - [ ] Papilo
 - [ ] Soplex
+<br>
 Following additional libraries for capability enhancement
 - Metis
 - Mumps
