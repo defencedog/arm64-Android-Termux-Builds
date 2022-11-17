@@ -23,7 +23,7 @@ Following additional libraries for capability enhancement
 ### Usage
 Following packages are available in `termux` default repo or [TUR](https://github.com/termux-user-repository/tur) repowhich can be added easily 
 ```
-pkg i zlib gcc-11 clang libcoinor-utils coinor-clp eigen glpk openblas gsl boost boost-headers p7zip
+pkg i zlib gcc-11 clang libcoinor-utils coinor-clp eigen glpk openblas gsl boost boost-headers p7zip mpich
 pkg i gcc-default-11 (a small size symlinking tool. Will be intermittently installed & uninstalled)
 ```
 <br>All builds are to be placed in `$PREFIX/local`<br>
