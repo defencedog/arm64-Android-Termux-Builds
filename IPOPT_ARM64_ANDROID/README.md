@@ -6,7 +6,7 @@ For **chemical engineering** I use following `python` libraries via `jupyter not
 - [sgtpy](https://github.com/gustavochm/sgtpy)
 - [Cantera](https://github.com/Cantera/cantera)
 
-~I am particularly thankful to [TUR](https://github.com/termux-user-repository/tur) repo maintainer [Uchiha Kakashi](https://github.com/licy183)~ <br>
+I am particularly thankful to [TUR](https://github.com/termux-user-repository/tur) repo maintainer [Uchiha Kakashi](https://github.com/licy183) <br>
 This folder contains all necessary stuff (libraries, binaries, header files) to run following solvers on ARM64 Android via Termux:
 - IPOPT
 - CBC
