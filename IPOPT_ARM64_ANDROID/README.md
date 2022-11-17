@@ -9,14 +9,14 @@ For **chemical engineering** I use following `python` libraries via `jupyter not
 
 I am particularly thankful to [TUR](https://github.com/termux-user-repository/tur) repo maintainer [Uchiha Kakashi](https://github.com/licy183) for helping me out<br>
 This folder contains all necessary stuff (libraries, binaries, header files) to run following solvers on ARM64 Android via Termux:
-- IPOPT
-- CBC
-- CLP
-To be done
-- [] Scip
-- [] Zimpl
-- [] Papilo
-- [] Soplex
+- [x] IPOPT
+- [x] CBC
+- [x] CLP
+- [x] CGL
+- [ ] Scip
+- [ ] Zimpl
+- [ ] Papilo
+- [ ] Soplex
 Following additional libraries for capability enhancement
 - Metis
 - Mumps
