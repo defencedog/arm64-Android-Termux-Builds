@@ -17,6 +17,7 @@ This folder contains all necessary stuff (libraries, binaries, header files) to 
 - [ ] Scip
 - [ ] Papilo
 - [ ] Soplex
+- [ ] Petsc
 
 Following additional libraries for capability enhancement
 
