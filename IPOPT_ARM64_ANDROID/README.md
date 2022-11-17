@@ -1,3 +1,11 @@
+### Background
+For **chemical engineering** I use following `python` libraries via `jupyter notebook`. These require Linear & or nonlinear solvers.
+- [IDAES-pse](https://github.com/IDAES/idaes-pse)
+- [Pyomo](https://github.com/Pyomo/pyomo)
+- [feos](https://github.com/feos-org/feos)
+- [sgtpy](https://github.com/gustavochm/sgtpy)
+- [Cantera](https://github.com/Cantera/cantera)
+
 This folder contains all necessary stuff (libraries, binaries, header files) to run following solvers on ARM64 Android via Termux:
 - IPOPT
 - CBC
