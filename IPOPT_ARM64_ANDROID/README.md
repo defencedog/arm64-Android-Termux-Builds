@@ -2,6 +2,7 @@
 For **chemical engineering** I use following `python` libraries via `jupyter notebook` on my Samsung Galaxy Tab S7. These require Linear & or nonlinear solvers.
 - [IDAES-pse](https://github.com/IDAES/idaes-pse)
 - [Pyomo](https://github.com/Pyomo/pyomo)
+- [Pulp](https://github.com/coin-or/pulp)
 - [feos](https://github.com/feos-org/feos)
 - [sgtpy](https://github.com/gustavochm/sgtpy)
 - [Cantera](https://github.com/Cantera/cantera)
@@ -20,7 +21,12 @@ Following additional libraries for capability enhancement
 - ASL
 
 ### Usage
-All builds are to be placed in `$PREFIX/local`<br>
+Following packages are available in `termux` default repo or [TUR](https://github.com/termux-user-repository/tur) repowhich can be added easily 
+```
+pkg i zlib gcc-11 clang libcoinor-utils coinor-clp eigen glpk openblas gsl boost boost-headers p7zip
+pkg i gcc-default-11 (a small size symlinking tool. Will be intermittently installed & uninstalled)
+```
+<br>All builds are to be placed in `$PREFIX/local`<br>
 Use `tree` command to know the directory structure once unzipping archives using `7z x <file>.7z`. There will be some empty fodlers & required further action will be mentioned in `README.txt`For instance:
 ```
 ~ $ tree metis_aarch64-linux-android/
