@@ -12,8 +12,8 @@ This folder contains all necessary stuff (libraries, binaries, header files) to 
 - [x] IPOPT
 - [x] CBC
 - [x] CLP
-- [ ] Bonmin
-- [ ] Couenne
+- [x] Bonmin
+- [x] Couenne
 - [ ] Scip
 - [ ] Papilo
 - [ ] Soplex
@@ -25,6 +25,7 @@ Following additional libraries for capability enhancement
 - [x] Mumps
 - [x] HSL
 - [x] ASL
+- [x] Scalapack
 - [ ] Zimpl
 
 ### Usage
