@@ -17,7 +17,7 @@ This folder contains all necessary stuff (libraries, binaries, header files) to 
 - [ ] Scip
 - [ ] Papilo
 - [ ] Soplex
-- [x] Petsc (locateed [here](https://github.com/IDAES/examples-pse/tree/main/scripts) alongwith idaes python wrapper)
+- [x] Petsc (located [here](https://github.com/IDAES/examples-pse/tree/main/scripts) alongwith idaes python wrapper)
 
 Following additional libraries for capability enhancement
 
