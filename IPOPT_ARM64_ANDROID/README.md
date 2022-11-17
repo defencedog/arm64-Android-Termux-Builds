@@ -11,8 +11,8 @@ Following additional libraries for capability enhancement
 - ASL
 
 ### Usage
-All builds are to be placed in `$PREFIX/local`
-Use `tree` command to know the directory structure once unzipping archives using `7z x <file>.7z`. There will be some empty fodlers & reqquired further action will be mentioned in `README.txt`<br/>
+All builds are to be placed in `$PREFIX/local`<br>
+Use `tree` command to know the directory structure once unzipping archives using `7z x <file>.7z`. There will be some empty fodlers & reqquired further action will be mentioned in `README.txt`<br>
 For instance:
 ```
 ~ $ tree metis_aarch64-linux-android/
