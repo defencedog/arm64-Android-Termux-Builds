@@ -11,7 +11,7 @@ Following additional libraries for capability enhancement
 - ASL
 
 ### Usage
-Use `tree` command to know the directory structure once unzipping archives using `7z x <file>.7z`.
+Use `tree` command to know the directory structure once unzipping archives using `7z x <file>.7z`. There will be some empty fodlers & reqquired further action will be mentioned in `README.TXT`<br/>
 For instance
 ```
 ~ $ tree metis_aarch64-linux-android/
