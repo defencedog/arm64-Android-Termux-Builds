@@ -18,8 +18,9 @@ This folder contains all necessary stuff (libraries, binaries, header files) to 
 - [ ] Zimpl
 - [ ] Papilo
 - [ ] Soplex
-<br>
+
 Following additional libraries for capability enhancement
+
 - Metis
 - Mumps
 - HSL
