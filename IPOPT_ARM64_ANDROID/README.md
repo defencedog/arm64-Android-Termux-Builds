@@ -12,8 +12,11 @@ This folder contains all necessary stuff (libraries, binaries, header files) to 
 - IPOPT
 - CBC
 - CLP
-- more will be added (Soplex, Papilo, Putsc...)
-
+To be done
+- [] Scip
+- [] Zimpl
+- [] Papilo
+- [] Soplex
 Following additional libraries for capability enhancement
 - Metis
 - Mumps
