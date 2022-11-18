@@ -53,12 +53,9 @@ Search which package provides a named file
 Check system environment varibles & where they point
 `env`
 
-Add environment vars, lib paths, include paths, bin paths <br>
+Add environment vars, lib paths, include paths, bin paths to `termux`<br>
 Caution:[Why LD_LIBRARY_PATH is bad](http://xahlee.info/UnixResource_dir/_/ldpath.html) <br>
-`nano ~/.bash_profile`
-after modifying file, update environment
-`source ~/.bash_profile` Better restart termux
-add these lines at top
+`nano ~/.bash_profile` add these lines at top
 ```
 PATH=$PATH:$PREFIX/bin:$PREFIX/local/bin
 
@@ -70,5 +67,7 @@ export C_INCLUDE_PATH=$PREFIX/include:$PREFIX/local/include:$PREFIX/local/includ
 
 export CPLUS_INCLUDE_PATH=$PREFIX/include:$PREFIX/local/include:$PREFIX/local/include/coin:$PREFIX/local/include/coinor:$PREFIX/local/include/coin-or/asl:$PREFIX/local/include/coin-or/hsl:$PREFIX/local/include/coin-or/mumps
 ```
+After modifying file, update environment
+`source ~/.bash_profile` or better restart termux <br>
 Each folder will have its own `README.txt`
 
