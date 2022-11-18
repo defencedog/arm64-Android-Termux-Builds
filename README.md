@@ -53,8 +53,8 @@ Search which package provides a named file
 Check system environment varibles & where they point
 `env`
 
-Add environment vars, lib paths, include paths, bin paths
-Caution:Why LD_LIBRARY_PATH is bad http://xahlee.info/UnixResource_dir/_/ldpath.html
+Add environment vars, lib paths, include paths, bin paths <br>
+Caution:[Why LD_LIBRARY_PATH is bad](http://xahlee.info/UnixResource_dir/_/ldpath.html) <br>
 `nano ~/.bash_profile`
 after modifying file, update environment
 `source ~/.bash_profile` Better restart termux
