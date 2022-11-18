@@ -25,6 +25,7 @@ Following additional libraries for capability enhancement
 - [x] Mumps 3.0.4
 - [x] HSL (2021.05.05)
 - [x] ASL (2019.06.05)
+- [x] CGL 
 - [x] Scalapack 2.2.1
 - [ ] Zimpl
 
