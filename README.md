@@ -55,17 +55,20 @@ Check system environment varibles & where they point
 
 Add environment vars, lib paths, include paths, bin paths
 Caution:Why LD_LIBRARY_PATH is bad http://xahlee.info/UnixResource_dir/_/ldpath.html
-```
-nano ~/.bash_profile
+`nano ~/.bash_profile`
 after modifying file, update environment
-source ~/.bash_profile
-e.g
+`source ~/.bash_profile` Better restart termux
 add these lines at top
+```
 PATH=$PATH:$PREFIX/bin:$PREFIX/local/bin
+
 export LD_LIBRARY_PATH=$PREFIX/lib:$PREFIX/local/lib
+
 export PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig:$PREFIX/local/lib/pkgconfig
-export C_INCLUDE_PATH=$PREFIX/include:$PREFIX/local/include:$PREFIX/local/include/coin:$PREFIX/local/include/coin-or:$PREFIX/local/include/coin-or/asl:$PREFIX>
-export CPLUS_INCLUDE_PATH=$PREFIX/include:$PREFIX/local/include:$PREFIX/local/include/coin:$PREFIX/local/include/coin-or:$PREFIX/local/include/coin-or/asl:$PR>
+
+export C_INCLUDE_PATH=$PREFIX/include:$PREFIX/local/include:$PREFIX/local/include/coin:$PREFIX/local/include/coin-or:$PREFIX/local/include/coin-or/asl:$PREFIX/local/include/coin-or/hsl:$PREFIX/local/include/coin-or/mumps
+
+export CPLUS_INCLUDE_PATH=$PREFIX/include:$PREFIX/local/include:$PREFIX/local/include/coin:$PREFIX/local/include/coinor:$PREFIX/local/include/coin-or/asl:$PREFIX/local/include/coin-or/hsl:$PREFIX/local/include/coin-or/mumps
 ```
 Each folder will have its own `README.txt`
 
