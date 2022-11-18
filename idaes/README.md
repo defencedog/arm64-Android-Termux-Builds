@@ -1,5 +1,4 @@
 ### This directory has compiled stuff for ARM64 Android as provided by [idaes-ext](https://github.com/IDAES/idaes-ext)
-### Libraries / Wrappers are for `python3.9`
 ### Petsc doesn't require any python compatibilty & will run on its own
 
 For `idaes-pse` to work correctly you have to first install `ipopt`& related libraries also hosted in [this git](https://github.com/defencedog/arm64-Android-Termux-Builds/tree/main/IPOPT_ARM64_ANDROID). Don't fret its simple extracting & then copying / pasting stuff!
