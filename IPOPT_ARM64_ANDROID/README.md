@@ -36,7 +36,8 @@ pkg i zlib gcc-11 clang libcoinor-utils coinor-clp eigen glpk openblas gsl boost
 pkg i gcc-default-11 (a small size symlinking tool. Will be intermittently installed & uninstalled)
 ```
 <br>All builds are to be placed in `$PREFIX/local`<br>
-Use `tree` command to know the directory structure once unzipping archives using `7z x <file>.7z`. There will be some empty fodlers & required further action will be mentioned in `README.txt`For instance:
+Use `tree` command to know the directory structure once unzipping archives using `7z x <file>.7z`. There will be some empty fodlers & required further action will be mentioned in `README.txt`<br>
+For instance a `tee` output:
 ```
 ~ $ tree metis_aarch64-linux-android/
 metis_aarch64-linux-android/
