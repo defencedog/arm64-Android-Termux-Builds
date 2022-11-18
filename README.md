@@ -41,4 +41,31 @@ Checkout libraries dependancies
 Checkout build architecture
 `objdump -a <some lib/bin>`
 
-Each folder will have its own README.txt
+Search for package in repo
+`pkg search <keyword to search>`
+
+Discover all file installed by some package
+`dpkg -L <package name already installed>`
+
+Search which package provides a named file
+`apt-file find <some .so or .h file>`
+
+Check system environment varibles & where they point
+`env`
+
+Add environment vars, lib paths, include paths, bin paths
+Caution:Why LD_LIBRARY_PATH is bad http://xahlee.info/UnixResource_dir/_/ldpath.html
+```
+nano ~/.bash_profile
+after modifying file, update environment
+source ~/.bash_profile
+e.g
+add these lines at top
+PATH=$PATH:$PREFIX/bin:$PREFIX/local/bin
+export LD_LIBRARY_PATH=$PREFIX/lib:$PREFIX/local/lib
+export PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig:$PREFIX/local/lib/pkgconfig
+export C_INCLUDE_PATH=$PREFIX/include:$PREFIX/local/include:$PREFIX/local/include/coin:$PREFIX/local/include/coin-or:$PREFIX/local/include/coin-or/asl:$PREFIX>
+export CPLUS_INCLUDE_PATH=$PREFIX/include:$PREFIX/local/include:$PREFIX/local/include/coin:$PREFIX/local/include/coin-or:$PREFIX/local/include/coin-or/asl:$PR>
+```
+Each folder will have its own `README.txt`
+
