@@ -1,7 +1,6 @@
 ### Python Unit Library using Rust
 ### Contains wheel for Python39
-@ https://itt-ustutt.github.io/quantity/examples.html#pressure-of-an-ideal-gas 
-
+@ https://itt-ustutt.github.io/quantity/examples.html
 ```
 git clone https://github.com/itt-ustutt/quantity
 cd quantity
