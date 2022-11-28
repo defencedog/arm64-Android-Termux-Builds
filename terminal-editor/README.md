@@ -20,3 +20,4 @@ zee:
         libm.so => /data/data/com.termux/files/usr/lib/libm.so
         ld-android.so => /data/data/com.termux/files/usr/lib/ld-android.so
 ```
+Copy these two `$PREFIX/local/bin`
