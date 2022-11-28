@@ -1,5 +1,5 @@
-### RUST can be installed from Termux default repo
-### Two eitors are included
+### RUST can be installed from Termux default repo (not needed by these builds)
+### Two editors are included
 - [x] https://github.com/jmacdonald/amp
 - [x] https://github.com/zee-editor/zee
 - [ ] Very buggy https://github.com/zyedidia/micro
