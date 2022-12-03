@@ -32,6 +32,16 @@ Following additional libraries for capability enhancement
 - [x] Bliss 0.77
 
 ### [SCIPOPT Suite](https://www.scipopt.org/) now is completely working
+It's highly recommended to install python interface. It has many examples
+https://github.com/scipopt/PySCIPOpt/tree/master/examples
+
+Procedure to install in Python @ version 4.2
+
+```
+export SCIPOPTDIR=$PREFIX/local
+export LDFLAGS=-lpython3.9 && MATHLIB=m pip install pyscipopt --verbose
+```
+Version / Build information
 ```
 SCIP version 8.0.2.4 [precision: 8 byte] [memory: block] [mode: debug] [LP solver: Soplex 6.0.1.3] [GitHash: 1929dc2868]
 Copyright (C) 2002-2022 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
