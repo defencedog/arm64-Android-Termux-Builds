@@ -96,7 +96,7 @@ pkg i gcc-default-11 (a small size symlinking tool. Will be intermittently insta
 ```
 <br>All builds are to be placed in `$PREFIX/local`<br>
 Use `tree` command to know the directory structure once unzipping archives using `7z x <file>.7z`. There will be some empty fodlers & required further action will be mentioned in `README.txt`<br>
-For instance a `tee` output:
+For instance a `tree` output:
 ```
 ~ $ tree metis_aarch64-linux-android/
 metis_aarch64-linux-android/
