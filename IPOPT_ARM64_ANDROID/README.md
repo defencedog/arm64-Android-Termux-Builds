@@ -32,8 +32,7 @@ Following additional libraries for capability enhancement
 - [x] Bliss 0.77
 
 ### [SCIPOPT Suite](https://www.scipopt.org/) now is completely working
-It's highly recommended to install python interface. It has many examples
-https://github.com/scipopt/PySCIPOpt/tree/master/examples
+It's highly recommended to install python interface. It has many [examples](https://github.com/scipopt/PySCIPOpt/tree/master/examples)
 
 Procedure to install in Python @ version 4.2
 
