@@ -13,6 +13,6 @@ pip install ./lxml-5.1.0-cp39-cp39-linux_armv8l.whl
 
 then install
 ```
-pip install jupyter_contrib_nbextensions-0.7.0
+pip install jupyter_contrib_nbextensions==0.7.0
 ```
 
